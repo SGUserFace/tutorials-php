@@ -1,0 +1,59 @@
+======================================
+SOURCE
+======================================
+
+    https://www.youtube.com/watch?v=CUP59sGvM9E&list=PLfdtiltiRHWHn4uErhCQEk1EIUjSGkuDk&index=4
+
+======================================
+Dependencies
+======================================
+
+    -composer
+        -requires location of php.exe (c:/xampp/php/php.exe)
+
+======================================
+1st time
+======================================
+
+    -open cmd on project root
+        -C:\xampp\htdocs\_projetos\Payment_projects\codecourse-stripe\library\stripe
+        -cd xampp\htdocs\_projetos\Payment_projects\codecourse-stripe\library\stripe
+    -run 'composer install'
+
+======================================
+uypdate composer
+======================================
+
+    -run 'composer update'
+
+
+======================================
+source code
+======================================
+
+    -https://stripe.com/docs/api/php#create_charge
+
+
+======================================
+TODO on projects
+======================================
+
+    -set account on dashboard to live (https://dashboard.stripe.com/test/dashboard)
+
+    -use real api keys from stripe (on init.php)
+
+    -premium_charge, premium:
+        -set amount, currency
+
+    -premium_charge:
+        -set location file to current page (==CHECK IF NECESSARY==, 
+        because the redirect-action will tell user that he is now premium)
+
+======================================
+Stripe api php reference
+======================================
+
+        https://stripe.com/docs/api/php#authentication
+
+
+        

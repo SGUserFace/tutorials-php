@@ -1,0 +1,32 @@
+==================================================
+ERRORS - HIGH
+==================================================
+
+-in paths.php, should be:
+	-$baseURL = $configParams['url']['base'];
+
+==================================================
+ERRORS - MEDIUM
+==================================================
+
+
+==================================================
+TODO - HIGH
+==================================================	
+
+
+==================================================
+TODO - LOW
+==================================================	
+
+-sanitize on mysqlrepository
+
+-menu and userwidget on different bars
+
+-model classes shoul not contain logic
+
+-user repository
+
+-mysql injection
+	-https://www.youtube.com/watch?v=xeuWST_KOyg
+	-https://www.exploit-db.com/papers/13045/
